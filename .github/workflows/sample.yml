@@ -2,7 +2,7 @@ name: Jenkins Logs
 
 on:
   workflow_run:
-    workflows: ["YourWorkflowName"]
+    workflows: Test
     types:
       - completed
 
